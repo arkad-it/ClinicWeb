@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/bg-pills.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.note
+{
+  text-align: center;
+  height: 80px;
+  background: -webkit-linear-gradient(left, #e0a709, #e6440e);
+  color: #fff;
+  font-weight: bold;
+  line-height: 80px;
+}
+.form-content
+{
+  padding: 5%;
+  border: 2px solid #ced4da;
+  margin-bottom: 2%;
+}
+.form-control{
+  border-radius:3rem;
+}
+
+.transparent {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.btnSubmit
+{
+  border:none;
+  border-radius:3rem;
+  padding: 1%;
+  width: 20%;
+  cursor: pointer;
+  background: #e6730e;
+  color: #fff;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+.peopleCarouselImg img {
+  width: auto;
+  height: 700px;
+  max-height: 700px;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

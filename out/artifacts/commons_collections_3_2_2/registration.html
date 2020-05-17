@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel='icon' href='img/favicon.ico' type='image/x-icon'/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="units.html">UNITS</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="login.html">RESERVATION</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!--JSP data-->
+<form action="PatientRegistrationServlet" method="post">
+
+    <div class="container-fluid padding">
+        <div class="col welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Patient account registration</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg">
+    <div class="container register-form">
+        <div class="form">
+          <center>
+            <div class="note">
+                <p>Please fill all necessary data</p>
+            </div>
+            <div class="transparent">
+                <div class="form-content">
+                    <div class="col">
+
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Login: </label>
+                            <input type="text" value="" name="patientLogin" required="required" pattern=".{5,}" class="form-control"
+                                   placeholder="sicMan"/>
+                        </div>
+                          <div class="form-group">
+                            <label>Password: </label>
+                              <input type="password" value="" min="1" name="patientPassword" required="required" pattern=".{5,}" class="form-control" />
+                          </div>
+                      </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label>Patient name and surname:</label>
+                              <input type="text" value="" name="patientNameSurname" required="required" class="form-control"
+                                     placeholder="Ian Pavel"/>
+                          </div>
+                            <div class="form-group">
+                              <label>Patient's email: </label>
+                                <input type="email" value="" min="1" name="patientEmail" required="required" class="form-control"
+                                     placeholder="need@help.aid"/>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                          <label>Date of birth: </label>
+                            <input type="date" value="" name="patientDateOfBirth" required="required" class="form-control"/>
+                          </div>
+                            <div class="form-group">
+                            <label>Phone: </label>
+                              <input type="number" placeholder="669574845" name="patientPhone" required="required" class="form-control"/>
+                          </div>
+                        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </center>
+
+</div>
+</div>
+</div>
+    <div>
+    <center>
+        <button type="submit" href="login.html" class="btnSubmit" value="Submit">REGISTER</button>
+    </center>
+  </div>
+
+  <div class="row form-group"></div>
+
+</form>
+</body>
+</html>

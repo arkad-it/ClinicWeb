@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='icon' href='img/favicon.ico' type='image/x-icon'/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+    <style> .bg{
+    background-image: url("img/bg-syringe-formatted.jpg");
+    height: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="units.html">UNITS</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="login.html">RESERVATION</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<div class="row form-group"></div>
+<div class="row form-group"></div>
+<div class="row form-group"></div>
+
+<div class="jumbotro padding bg">
+    <div class="container padding">
+      <div class="row padding">
+
+        <div class="col-md-4">
+          <center>
+          <table style="height: 160px;">
+      <tbody>
+          <td class="align-middle"><span class="align-middle"><h1 >Patient verification</h1></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
+        </div>
+        <!--        <form action="LogServlet" method="post">-->
+        <!--            Name:<input type="text" name="username"/><br/><br/>-->
+        <!--            Password:<input type="password" name="userpassword"/><br/><br/>-->
+        <!--            <input type="submit" value="Login"/>-->
+        <!--        </form>-->
+
+
+
+
+  <div class="col-md-4">
+        <form action="PatientAccountServlet" method="post">
+          <center>
+            <div class="form-group">
+                <label>Login</label>
+                <input type="text" class="form-control" name="inputName" required="required" style=" max-width: 400px;">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" name="inputPassword" required="required" style=" max-width: 400px;">
+            </div>
+            <div class="row form-group"></div>
+            <div class="row form-group"></div>
+            <div class="row form-group"></div>
+            <center>
+            <button type="submit" class="btn btn-outline-dark">Submit</button>
+          </center>
+          </center>
+        </form>
+</div>
+
+<div class="col-md-4">
+<div class="row form-group"></div>
+<div class="row form-group"></div>
+<center>
+        <div class="card bg-light border-secondary " style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Dear patient</h5>
+            <p class="card-text">In order to maximize our individual patient health care ought to be provided - our institution requires a patient account.
+               We sincerely encourage you considering making one for further medical investigation and appointment reservation.</p>
+               <center>
+                <a href="registration.html" class="card-link">REGISTER NOW</a>
+               </center>
+          </div>
+        </div>
+      </center>
+  </div>
+
+</div>
+
+    </div>
+</div>
+
+<div class="row form-group"></div>
+<div class="row form-group"></div>
+<div class="row form-group"></div>
+
+
+<center>
+<div class="row">
+    <div class="container-fluid">
+        <div class="col-sm-9">
+            <a href="index.html" class="btn btn-outline-dark" role="button" aria-disabled="true">Back</a>
+        </div>
+    </div>
+</div>
+</center>
+
+</body>
+</html>
