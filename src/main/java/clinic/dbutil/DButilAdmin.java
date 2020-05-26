@@ -96,6 +96,8 @@ public class DButilAdmin extends DButil{
         PreparedStatement statement = null;
         ResultSet resultSet = null;
 
+        boolean isFound = false;
+
         try {
 
             // ID
@@ -115,7 +117,7 @@ public class DButilAdmin extends DButil{
 
             // Result mapping
 
-            if (resultSet.next()) {
+            while (resultSet.next()) {
 
                 // progressively read rows
 
@@ -141,8 +143,8 @@ public class DButilAdmin extends DButil{
                 // add new res obj to list
                 reservation = new Reservation(reservation_id, reservation_date, reservation_time, reservation_doc,
                         reservation_address, reservation_patient_id);
-            } else {
-                throw new Exception("No such reservation found: " + reservation_id);
+
+                isFound = true;
             }
 
             return reservation;

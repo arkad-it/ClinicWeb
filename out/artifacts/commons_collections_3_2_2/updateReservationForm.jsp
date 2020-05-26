@@ -51,7 +51,7 @@
 <div class="jumbotron">
     <div class="container">
 
-        <form action="AdminServlet" method="get">
+        <form action="AdminServlet" method="post">
 
         <c:set var="tempReservation" value="${load_reservation_attribute}" />
             <center>

@@ -122,8 +122,6 @@ public class AdminServlet extends HttpServlet {
             throw new ServletException(e);
         }
 
-        return;
-
     }
 
     private void deleteReservation(HttpServletRequest request, HttpServletResponse response) throws Exception {

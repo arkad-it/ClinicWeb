@@ -6,7 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1c6f71-20f6-4b60-bc8a-c3bdae7b3e02" name="Default Changelist" comment="" />
+    <list default="true" id="1d1c6f71-20f6-4b60-bc8a-c3bdae7b3e02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS_P1_245149.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$_P1_245149.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TS_P1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TS_P1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TS_P1_245149.docx" beforeDir="false" afterPath="$PROJECT_DIR$/TS_P1_245149.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/classes/clinic/dbutil/DButilAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/classes/clinic/dbutil/DButilAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/classes/clinic/servlet/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/classes/clinic/servlet/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/lib/clinic/dbutil/DButilAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/lib/clinic/dbutil/DButilAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/lib/clinic/servlet/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/lib/clinic/servlet/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/lib/updateReservationForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/WEB-INF/lib/updateReservationForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/updateReservationForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TS_Lista7_war_exploded/updateReservationForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/commons_collections_3_2_2/clinic/dbutil/DButilAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/commons_collections_3_2_2/clinic/dbutil/DButilAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/commons_collections_3_2_2/clinic/servlet/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/commons_collections_3_2_2/clinic/servlet/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/commons_collections_3_2_2/updateReservationForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/commons_collections_3_2_2/updateReservationForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clinic/dbutil/DButilAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/dbutil/DButilAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clinic/servlet/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/servlet/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clinic/dbutil/DButilAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clinic/dbutil/DButilAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clinic/servlet/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clinic/servlet/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/updateReservationForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updateReservationForm.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +100,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\arkad\Desktop\sem6\Technologie sieciowe I\TS_P1\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -86,13 +122,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1awCav3GZZTMOsvv9C703ZLWjTg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -238,11 +279,33 @@
       <workItem from="1589220634537" duration="9798000" />
       <workItem from="1589379434957" duration="3325000" />
       <workItem from="1589536543593" duration="79629000" />
+      <workItem from="1589746462501" duration="776000" />
+      <workItem from="1589812186951" duration="277000" />
+      <workItem from="1589881976021" duration="6988000" />
+      <workItem from="1589986759009" duration="85000" />
+      <workItem from="1590316160952" duration="421000" />
+      <workItem from="1590342438195" duration="3346000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HotelRoomBooking$Tomcat_9_0_34.ic" NAME="Tomcat 9.0.34 Coverage Results" MODIFIED="1587836902949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
